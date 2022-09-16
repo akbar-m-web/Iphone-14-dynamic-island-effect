@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Islad Effect </title>
+</head>
+<body>
+
+    <div class="text">   Iphone 14 pro max</div>
+  
+    <div class="box">
+        <div class="inner">
+            <div class="island-popup">
+                <div class="content">
+            n          <div class="details">
+                        <div class="imgbox">
+                            <img src="./a.jpg" alt="">
+                        </div>
+                        <p>Akbar Kalani</p>
+                    </div>
+                    <div class="action">
+                        <ion-icon name="call" class="red"></ion-icon>
+                        <ion-icon name="call" class="green"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <i class="btn btn1"></i>
+        <i class="btn btn2"></i>
+        <i class="btn btn3"></i>
+        <i class="ringhtSideBtn"></i>
+
+    </div>
+
+
+    <script>
+         let islandPo = document.querySelector(".island-popup");
+         islandPo.onclick = function() {
+            islandPo.classList.toggle('active')
+        }
+
+    </script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
